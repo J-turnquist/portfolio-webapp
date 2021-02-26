@@ -12,6 +12,7 @@
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.4.1",
     "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1",
     "react-tsparticles": "^1.18.12",
     "react-typography": "^0.16.19",
     "react-vertical-timeline-component": "^3.3.3"

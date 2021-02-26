@@ -9,6 +9,9 @@ import NavigationBar from '../../components/NavigationBar';
 import BackgroundParticles from '../../components/BackgroundParticles';
 import ScrollAppearingText from '../../components/ScrollAppearingText';
 
+// Scroll Jump
+import {Link} from 'react-scroll'
+
 // Components
 import IconButton from '@material-ui/core/IconButton';
 import ScrollUpIcon from '@material-ui/icons/KeyboardArrowUp';
@@ -49,11 +52,13 @@ const Home = ({ classes }) => {
 
           <Slide className={classes.landingIcon} in={true} direction="up" timeout={3000} style={{ transitionDelay:  '720ms' }}>
             <IconButton aria-label="about" href="#about-me">
-              <ScrollUpIcon color='primary' style={{ fontSize: 64}} />
+              <Link  to="about" spy={true} smooth={true}>
+                <ScrollUpIcon color='primary' style={{ fontSize: 64}} />
+                </Link>
             </IconButton>
           </Slide>
 
-          <div className={classes.aboutWrapper}>
+          <div id='about' className={classes.aboutWrapper}>
             <ScrollAppearingText text='About Me' variant='h2' />
             <ScrollAppearingText text="I'm an accomplished software engineer with a background in basically everything." color='primary' variant='body1'/>
           </div>

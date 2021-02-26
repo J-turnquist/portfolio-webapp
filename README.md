@@ -1,3 +1,10 @@
+# What is this even?
+
+This is my web portfolio! Used to be coupled with me resumé, showcase my skills, and present some of my proudest work. Hope you enjoy!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

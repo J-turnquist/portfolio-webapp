@@ -69,10 +69,10 @@ const Home = ({ classes }) => {
 
           <VerticalTimeline>
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               date="February 2021 - present"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Instructional Assistant</h3>
@@ -83,24 +83,24 @@ const Home = ({ classes }) => {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: 'rgb(33, 30, 99)', color: '#fff' }}
-              date="November 2020 - Present"
-              iconStyle={{ background: 'rgb(33, 30, 99)', color: '#fff' }}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: theme.palette.timeline.blue, color: '#fff' }}
+              date="November 2020 - present"
+              iconStyle={{ background: theme.palette.timeline.blue, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Barista at Blue Bottle Coffee</h3>
               <h4 className="vertical-timeline-element-subtitle">Del Mar, CA</h4>
               <p>
-                Creative Direction, Visual Design
+                Developing happiness in a cup
               </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: theme.palette.timeline.red, color: '#fff' }}
               date="June 2020 - present"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.red, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Software Engineer - Internship</h3>
@@ -111,24 +111,67 @@ const Home = ({ classes }) => {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
-              date="November 2012"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              date="2019 - 2020"
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Computer Science Instructor</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College, CA</h4>
               <p>
                 Respoonsible for developing and delivering a class curriculum catered toward lower-class and first-generation high school students.
+                This is an annual summer job with Upward Bound (UB I &  II) and Educational Talent Search (ETC).
               </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              className="vertical-timeline-element--school"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              date="May 2020"
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              icon={<SchoolIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">A.S. Mathematics</h3>
+              <h4 className="vertical-timeline-element-subtitle">Associate's Degree</h4>
+              <p>
+                I graduated with a 3.8 GPA in Mathematics at Diablo Valley College.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--school"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              date="May 2020"
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              icon={<SchoolIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">A.S. Communications</h3>
+              <h4 className="vertical-timeline-element-subtitle">Associate's Degree</h4>
+              <p>
+                I graduated with a 4.0 GPA in Communications at Diablo Valley College.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--school"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              date="May 2020"
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
+              icon={<SchoolIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">A.S. Computer Science</h3>
+              <h4 className="vertical-timeline-element-subtitle">Associate's Degree</h4>
+              <p>
+                I graduated with a 4.0 GPA in Computer Science at Diablo Valley College.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               date="2019 - 2020"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Computer Science Tutor</h3>
@@ -140,9 +183,9 @@ const Home = ({ classes }) => {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               date="2018 - 2020 • 2 yrs"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Public Speaking Tutor & Competitor</h3>
@@ -155,9 +198,9 @@ const Home = ({ classes }) => {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               date="2018 - 2020"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
               icon={<ClubIcon />}
             >
               <h3 className="vertical-timeline-element-title">Club Coordinator</h3>
@@ -169,10 +212,10 @@ const Home = ({ classes }) => {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              contentStyle={{ background: theme.palette.timeline.blue, color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               date="2017 - 2020"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.blue, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Manual Laborer</h3>
@@ -184,9 +227,9 @@ const Home = ({ classes }) => {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
+              contentStyle={{ background: theme.palette.timeline.brown, color: '#fff' }}
               date="2015 - 2020"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: theme.palette.timeline.brown, color: '#fff' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-subtitle">Camp Counselor</h3>

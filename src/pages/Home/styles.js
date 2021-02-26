@@ -24,12 +24,10 @@ const styles = (theme) => ({
         alignItems: 'center',
         flexDirection: 'column',
         zIndex: 3,
-        marginLeft: 20,
-        marginRight: 20,
         height: '100vh',
         minHeight: '100vh',
-        width: '100vw',
-        minWidth: '100vw',
+        width: '70vw',
+        minWidth: '30vw',
     },
 
 });

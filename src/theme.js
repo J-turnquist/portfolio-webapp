@@ -75,6 +75,12 @@ const theme = createMuiTheme({
         text: {
             primary: '#ffffff',
         },
+        timeline: {
+          red: 'rgb(100, 10, 8)',
+          green: 'rgb(4, 60, 44)',
+          blue: 'rgb(33, 30, 99)',
+          brown: 'rgb(42, 22, 22)',
+        },
         springus: {
             yellow, // Hex #F9C33D
             orange: 'rgba(247, 147, 30, 1)', // Hex #F7931E

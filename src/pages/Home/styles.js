@@ -4,6 +4,7 @@ const styles = (theme) => ({
       display: 'flex',
       alignItems: 'center',
       flexDirection: 'column',
+      backgroundColor: '#282c34',
     },
     landingText: {
       position: "absolute",
@@ -29,7 +30,14 @@ const styles = (theme) => ({
         width: '70vw',
         minWidth: '30vw',
     },
-
+    experienceWrapper: {
+      zIndex: 3,
+      backgroundColor: '#282c34',
+    },
+    timeline: {
+      zIndex: 4,
+      backgroundColor: '#282c34',
+    }
 });
 
 export default styles;

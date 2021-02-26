@@ -40,7 +40,7 @@ const ScrollAppearingText = ({ classes, text, color, variant, wait }) => {
 
     return (
       <Fade ref={ref} in={isVisible} timeout={{ enter: 500, exit: 0 }}>
-        <Typography className={classes.aboutSection} color={color} variant={variant}>
+        <Typography color={color} variant={variant}>
           {text}
         </Typography>
       </Fade>

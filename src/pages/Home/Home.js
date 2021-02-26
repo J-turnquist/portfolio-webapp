@@ -63,11 +63,11 @@ const Home = ({ classes }) => {
             <ScrollAppearingText text="I'm an accomplished software engineer with a background in basically everything." color='primary' variant='body1'/>
           </div>
 
-          <div className={classes.experienceWrapper}>
+          <div id='experience' className={classes.experienceWrapper}>
             <ScrollAppearingText text='Experience' variant='h2' />
           </div>
 
-          <VerticalTimeline>
+          <VerticalTimeline className={classes.timeline} animate={true} >
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: theme.palette.timeline.green, color: '#fff' }}
@@ -238,11 +238,6 @@ const Home = ({ classes }) => {
                 Conflict Management, Discussion Group Leader, Counselor, Mentor
               </p>
             </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-              icon={<StarIcon />}
-            />
           </VerticalTimeline>
         </div>
     );

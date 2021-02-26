@@ -120,7 +120,7 @@ const Home = ({ classes }) => {
               <h3 className="vertical-timeline-element-title">Computer Science Instructor</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College, CA</h4>
               <p>
-                Respoonsible for developing and delivering a class curriculum catered toward lower-class and first-generation high school students.
+                Responsible for developing and delivering a class curriculum catered toward lower-class and first-generation high school students.
                 This is an annual summer job with Upward Bound (UB I &  II) and Educational Talent Search (ETC).
               </p>
             </VerticalTimelineElement>

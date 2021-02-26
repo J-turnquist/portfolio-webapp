@@ -1,5 +1,5 @@
 // React
-import React, { useState, } from 'react';
+import React from 'react';
 
 // Material UI
 import { withStyles } from '@material-ui/core/styles';
@@ -11,12 +11,13 @@ import ScrollAppearingText from '../../components/ScrollAppearingText';
 
 // Components
 import IconButton from '@material-ui/core/IconButton';
-import ArrowButton from '../../components/ArrowButton';
 import ScrollUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import LaborIcon from '@material-ui/icons/Build';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
 import StarIcon from '@material-ui/icons/Star';
+import CoffeeIcon from '@material-ui/icons/LocalCafeTwoTone';
+import ClubIcon from '@material-ui/icons/BusinessCenter';
 
 // Transitions
 import { Fade, Slide } from '@material-ui/core';
@@ -34,8 +35,6 @@ import theme from '../../theme';
 import { headline } from './data';
 
 const Home = ({ classes }) => {
-    const [showHeadline, setShowHeadline] = useState(false);
-
     return (
         <div className={classes.root}>
           <BackgroundParticles />
@@ -69,7 +68,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
               date="February 2021 - present"
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<SchoolIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Instructional Assistant</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College, CA</h4>
@@ -83,7 +82,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: 'rgb(33, 30, 99)', color: '#fff' }}
               date="November 2020 - Present"
               iconStyle={{ background: 'rgb(33, 30, 99)', color: '#fff' }}
-              icon={<SchoolIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Barista at Blue Bottle Coffee</h3>
               <h4 className="vertical-timeline-element-subtitle">Del Mar, CA</h4>
@@ -97,7 +96,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
               date="June 2020 - present"
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<SchoolIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Software Engineer - Internship</h3>
               <h4 className="vertical-timeline-element-subtitle">Remote -- Pheonix, AZ</h4>
@@ -111,7 +110,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
               date="November 2012"
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<SchoolIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Computer Science Instructor</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College, CA</h4>
@@ -125,7 +124,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
               date="2019 - 2020"
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<SchoolIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Computer Science Tutor</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College, CA</h4>
@@ -137,7 +136,7 @@ const Home = ({ classes }) => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
-              date="2018 - 2020 / 2 yrs"
+              date="2018 - 2020 • 2 yrs"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
               icon={<WorkIcon />}
             >
@@ -154,7 +153,7 @@ const Home = ({ classes }) => {
               contentStyle={{ background: theme.palette.springus.black, color: '#fff' }}
               date="2018 - 2020"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-              icon={<WorkIcon />}
+              icon={<ClubIcon />}
             >
               <h3 className="vertical-timeline-element-title">Club Coordinator</h3>
               <h4 className="vertical-timeline-element-subtitle">Diablo Valley College</h4>
@@ -169,7 +168,7 @@ const Home = ({ classes }) => {
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               date="2017 - 2020"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-              icon={<LaborIcon />}
+              icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Manual Laborer</h3>
               <h4 className="vertical-timeline-element-subtitle">Bay Area, CA</h4>
@@ -185,7 +184,7 @@ const Home = ({ classes }) => {
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
               icon={<WorkIcon />}
             >
-              <h3 className="vertical-timeline-element-title">Camp Counselor</h3>
+              <h3 className="vertical-timeline-element-subtitle">Camp Counselor</h3>
               <h4 className="vertical-timeline-element-subtitle">Koinonia Conference Grounds</h4>
               <p>
                 Conflict Management, Discussion Group Leader, Counselor, Mentor

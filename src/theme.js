@@ -1,4 +1,4 @@
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 const yellow = 'rgba(249, 195, 61, 1)'; // Hex #F9C33D
 
@@ -9,11 +9,11 @@ const theme = createMuiTheme({
         fontSize: 14,
         h1: {
             fontFamily: 'Helvetica',
-            fontSize: 64,
+            fontSize: '10vmin',
         },
         h2: {
             fontFamily: 'Helvetica',
-            fontSize: 72,
+            fontSize: '12vmin',
             fontWeight: '400',
         },
         h3: {

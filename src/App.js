@@ -7,8 +7,6 @@ import theme from './theme';
 
 // Pages
 import Home from './pages/Home';
-import BackgroundParticles from './components/BackgroundParticles';
-import NavigationBar from './components/NavigationBar';
 
 function App() {
   return (

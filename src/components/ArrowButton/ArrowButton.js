@@ -7,7 +7,6 @@ import { Slide } from '@material-ui/core';
 
 // Icons
 import IconButton from '@material-ui/core/IconButton';
-import Button from '@material-ui/core/Button';
 import ScrollUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
 // Styles

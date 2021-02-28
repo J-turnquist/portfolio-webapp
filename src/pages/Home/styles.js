@@ -1,10 +1,10 @@
 const styles = (theme) => ({
     root: {
-      position: 'center',
+      position: 'relative',
       display: 'flex',
       alignItems: 'center',
       flexDirection: 'column',
-      backgroundColor: '#282c34',
+      backgroundColor: theme.palette.background.primary,
     },
     landingText: {
       position: "absolute",
@@ -13,30 +13,52 @@ const styles = (theme) => ({
     },
     landingIcon: {
       position: 'absolute',
-      bottom: '1px',
+      top: '85vh',
       color: 'white',
-      zIndex: 2,
+      zIndex: 1,
     },
     aboutWrapper: {
-        backgroundColor: '#282c34',
+        backgroundColor: theme.palette.background.secondary,
         position: 'relative',
         display: 'flex',
-        textAlign: 'center',
         alignItems: 'center',
         flexDirection: 'column',
         zIndex: 3,
+        marginTop: '100vh',
         height: '100vh',
         minHeight: '100vh',
-        width: '70vw',
-        minWidth: '30vw',
+        minWidth: '100vw',
+        borderTopLeftRadius: '8px',
+        borderTopRightRadius: '8px',
+    },
+    aboutSection: {
+      width: '85vw',
+      minWidth: '40vw',
+      marginTop: '5%',
+      display: 'flex',
+      alignItems: 'center',
+      flexDirection: 'column',
     },
     experienceWrapper: {
       zIndex: 3,
-      backgroundColor: '#282c34',
+      display: 'flex',
+      alignItems: 'center',
+      flexDirection: 'column',
+      backgroundColor: theme.palette.background.primary,
+    },
+    experienceSection: {
+      width: '100vw',
+      minWidth: '40vw',
+      marginTop: '5%',
     },
     timeline: {
       zIndex: 4,
-      backgroundColor: '#282c34',
+      backgroundColor: theme.palette.background.primary,
+      // minWidth: '100vw',
+    },
+    timelineElement: {
+      // marginLeft: '10px',
+      // marginRight: '10px',
     }
 });
 

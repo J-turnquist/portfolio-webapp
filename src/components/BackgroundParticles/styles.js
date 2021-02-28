@@ -1,6 +1,6 @@
 const styles = (theme) => ({
     root: {
-      position: 'relative',
+      position: 'fixed',
       height: '100vh',
       minHeight: '100vh',
       width: '100vw',

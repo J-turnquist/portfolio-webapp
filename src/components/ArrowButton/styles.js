@@ -1,14 +1,16 @@
 const styles = (theme) => ({
     root: {
-
+      background: "LightBlue",
+      display: "flex",
+      justifyContent:"center",
+      alignItems: "center"
     },
     landingIcon: {
       position: 'absolute',
-      bottom: '1px',
+      top: '85vh',
       color: 'white',
-      zIndex: 2,
+      zIndex: 1,
     },
-
   });
 
 export default styles;

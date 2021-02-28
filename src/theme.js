@@ -88,8 +88,8 @@ const theme = createMuiTheme({
             black: 'rgba(44, 44, 44, 1)', // Hex #2C2C2C
         },
         background: {
-          primary: '#282c34',
-          secondary: '#282c34',
+          primary: 'rgb(24, 28, 36)', //'#181c24',
+          secondary: 'rgb(24, 28, 36)', //'rgb(40, 44, 52)','rgb(24, 28, 36)'
         },
         alert: {
             red: 'rgba(226, 58, 45, 1)',
